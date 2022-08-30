@@ -1,4 +1,5 @@
 void main() {
+
   // Testing Comment
   
   /* Testing Comment
@@ -47,7 +48,22 @@ void main() {
     var cek_string_length=nama_depan.length;
   
   // end
-    
   
-  print(cek_string_length);
+  // List Fixed Length
+
+      List<String> list_name=  List<String>.filled(3, "");
+      list_name[0]="tio";
+      list_name[1]="joki";
+      list_name[2]="tono";
+
+  // end
+
+  // List Growable List
+     var list_pet=["aug","meow"];
+     List<int> list_number_phone=[087810990165,08991980409];
+  //end
+  
+  print(list_number_phone);
 }
+
+
